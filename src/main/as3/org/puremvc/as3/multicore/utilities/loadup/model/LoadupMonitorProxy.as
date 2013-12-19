@@ -33,7 +33,7 @@ package org.puremvc.as3.multicore.utilities.loadup.model
 	*  <li>specify a retry policy, per resource</li>
 	*  <li>be aware of the progress of the resource loading</li>
 	*  <li>know when the resource loading is complete</li>
-	*  <li>cater for an open-ended list of resources.</li></ul>
+	*  <li>cater for an open-ended list of resources.</li></ul></p>
 	*  <p>
 	*  The demo app called LoadupAsOrdered provides an example use of this utility.</p>
 	*  <p>
@@ -122,7 +122,7 @@ package org.puremvc.as3.multicore.utilities.loadup.model
 	*  <ul><li>
 	*  Invalid Resources: if the Monitor decides that the set of resources cannot
 	*  be loaded, for example, there are no resources, or they have inter-dependencies such that it is
-	*  not feasible to load them.</li></p>
+	*  not feasible to load them.</li></ul></p>
 	*  <p>
 	*  The property <code>defaultRetryPolicy</code> is a convenient way of setting a retry policy that will be used
 	*  as the default in <code>LoadupResourceProxy</code> objects.  This is assigned an initial value based on the 
@@ -441,7 +441,7 @@ package org.puremvc.as3.multicore.utilities.loadup.model
 		/**
          * The resource is loaded, update the state and check if the loading process is complete.
 		 * 
-         * @param proxyNname App resource proxy name for the loaded resource.
+         * @param proxyName App resource proxy name for the loaded resource.
          *  @throws Error when the given proxy name is not recognised by this LoadupMonitorProxy.
          */
 		public function resourceLoaded( proxyName :String ):void {
@@ -500,7 +500,7 @@ package org.puremvc.as3.multicore.utilities.loadup.model
          * The resource load has failed, update the state, retry the load if possible,
          *  otherwise check are we finished with this try to load resources.
 		 * 
-         * @param proxyNname App resource proxy name for the failed load.
+         * @param proxyName App resource proxy name for the failed load.
          * @param allowRetry False means the client app says 'do not retry'.
          *  @throws Error when the given proxy name is not recognised by this LoadupMonitorProxy.
          */

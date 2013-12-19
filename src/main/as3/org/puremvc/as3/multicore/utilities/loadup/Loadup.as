@@ -24,7 +24,7 @@ package org.puremvc.as3.multicore.utilities.loadup
 	*  <li>each asset type maps to a particular asset class and asset loader class</li>
 	*  <li>each asset is fronted by an AssetProxy; this proxy implements the LU kernel interface 
 	*  ILoadupProxy and has the asset loader class in a delegate role</li>
-	*  <li>the group of assets is fronted by an AssetGroupProxy.</li></ul>
+	*  <li>the group of assets is fronted by an AssetGroupProxy.</li></ul></p>
 	*  <p>
 	*  One way to become familiar with this sub-system is as follows
 	*  <ul><li>

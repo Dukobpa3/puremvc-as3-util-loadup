@@ -29,7 +29,7 @@ package org.puremvc.as3.multicore.utilities.loadup.model
 	*  the constructor.  These <code>LoadupResourceProxy</code> objects exist only for the purposes of
 	*  the utility.  How they are named is of no interest to the utility.  Each of these objects should be
 	*  registered with the puremvc model i.e. facade.registerProxy; this is absolutely required when the
-	*  utility is used with puremvc multicore.
+	*  utility is used with puremvc multicore.</p>
 	*  <p>
 	*  To specify dependencies between resources, use the <code>requires</code> property.  For example,
 	*  if we have 3 resources <code>r1,r2,r3</code>, and r3 requires that r1 and r2 must be loaded first,
